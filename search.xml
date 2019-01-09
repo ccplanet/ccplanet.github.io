@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[hexo-blog]]></title>
     <url>%2F2019%2F01%2F09%2Fhexo-blog%2F</url>
-    <content type="text"><![CDATA[测试测试，第一篇个人博客]]></content>
+    <content type="text"><![CDATA[测试测试，第一篇个人博客 欢迎来到 Coolplay Spark（中文名：酷玩 Spark）！ Coolplay Spark 将包含 Spark 源代码解析、Spark 类库、Spark 代码等。 已发布的内容 Structured Streaming 源码解析系列 Structured Streaming 是 Spark 2.x 的流数据处理系统 Spark Streaming 源码解析系列 Spark Streaming 是 Spark 1.x 的流数据处理系统 Spark 资源集合 包括 Spark 技术交流（中文社群）![wechat_spark_streaming_small] Spark Summit 视频等资源集合]]></content>
       <tags>
         <tag>第一篇</tag>
         <tag>测试</tag>

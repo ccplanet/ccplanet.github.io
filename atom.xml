@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-09T10:57:14.254Z</updated>
+  <updated>2019-01-09T13:25:16.007Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,18 @@
     <link href="http://yoursite.com/2019/01/09/hexo-blog/"/>
     <id>http://yoursite.com/2019/01/09/hexo-blog/</id>
     <published>2019-01-09T10:55:07.000Z</published>
-    <updated>2019-01-09T10:57:14.254Z</updated>
+    <updated>2019-01-09T13:25:16.007Z</updated>
     
-    <content type="html"><![CDATA[<pre><code>测试测试，第一篇个人博客</code></pre>]]></content>
+    <content type="html"><![CDATA[<pre><code>测试测试，第一篇个人博客</code></pre><p>欢迎来到 Coolplay Spark（中文名：酷玩 Spark）！</p><p>Coolplay Spark 将包含 Spark 源代码解析、Spark 类库、Spark 代码等。</p><h2 id="已发布的内容"><a href="#已发布的内容" class="headerlink" title="已发布的内容"></a>已发布的内容</h2><ul><li><a href="https://github.com/lw-lin/CoolplaySpark/tree/master/Structured%20Streaming%20%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E7%B3%BB%E5%88%97" target="_blank" rel="noopener">Structured Streaming 源码解析系列</a><ul><li>Structured Streaming 是 Spark 2.x 的流数据处理系统</li></ul></li><li><a href="https://github.com/lw-lin/CoolplaySpark/tree/master/Spark%20Streaming%20%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E7%B3%BB%E5%88%97" target="_blank" rel="noopener">Spark Streaming 源码解析系列</a><ul><li>Spark Streaming 是 Spark 1.x 的流数据处理系统</li></ul></li><li><a href="https://github.com/lw-lin/CoolplaySpark/tree/master/Spark%20%E8%B5%84%E6%BA%90%E9%9B%86%E5%90%88" target="_blank" rel="noopener">Spark 资源集合</a><ul><li>包括 Spark 技术交流（中文社群）<br>![wechat_spark_streaming_small]</li><li>Spark Summit 视频等资源集合</li></ul></li></ul>]]></content>
     
     <summary type="html">
     
       
       
         &lt;pre&gt;&lt;code&gt;测试测试，第一篇个人博客
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;欢迎来到 Coolplay Spark（中文名：酷玩 Spark）！&lt;/p&gt;
+&lt;p&gt;Coolplay Spark 将包含 Spark 源代码解析、Spark 类库、Spark 代码等。&lt;/p&gt;
+&lt;h2
       
     
     </summary>
