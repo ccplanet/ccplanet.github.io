@@ -24,6 +24,12 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link rel="stylesheet" href="/lib/pace/pace-theme-center-atom.min.css?v=1.0.2">
 
 
 
@@ -39,6 +45,11 @@
 
 
 
+
+
+  
+  
+  <link rel="stylesheet" href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5">
 
 
 
@@ -101,11 +112,11 @@
     scheme: 'Pisces',
     version: '6.7.0',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: false,
-    fastclick: false,
-    lazyload: false,
+    fancybox: true,
+    fastclick: true,
+    lazyload: true,
     tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -124,18 +135,18 @@
 
   <meta name="description" content="在路上。">
 <meta property="og:type" content="website">
-<meta property="og:title" content="ccplanet">
+<meta property="og:title" content="ccplanet’s blog">
 <meta property="og:url" content="http://yoursite.com/archives/index.html">
-<meta property="og:site_name" content="ccplanet">
+<meta property="og:site_name" content="ccplanet’s blog">
 <meta property="og:description" content="在路上。">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ccplanet">
+<meta name="twitter:title" content="ccplanet’s blog">
 <meta name="twitter:description" content="在路上。">
 
 
 
-  <link rel="alternate" href="/atom.xml" title="ccplanet" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="ccplanet’s blog" type="application/atom+xml">
 
 
 
@@ -150,7 +161,7 @@
   };
 </script>
 
-  <title>归档 | ccplanet</title>
+  <title>归档 | ccplanet’s blog</title>
   
 
 
@@ -212,10 +223,14 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">ccplanet</span>
+        <span class="site-title">ccplanet’s blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+    
+      
+        <h1 class="site-subtitle" itemprop="description">Welcome</h1>
+      
     
     
   </div>
@@ -636,6 +651,15 @@
           
 
           
+             <div class="cc-license motion-element" itemprop="license">
+              
+                
+              
+              
+              
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+             </div>
+          
 
           
           
@@ -682,7 +706,7 @@
       <div class="footer-inner">
         <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-globe"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">ccplanet</span>
 
@@ -710,13 +734,11 @@
 
 
 
-  <span class="post-meta-divider">|</span>
 
 
 
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v6.7.0</div>
 
-
+  <div class="footer-custom">Hosted by <a href="https://pages.coding.me" class="theme-link" rel="noopener" target="_blank">Coding Pages</a></div>
 
 
         
@@ -758,12 +780,18 @@
 
 
 
+  
+
+
+
+  
 
 
 
 
 
 
+  
 
 
 
@@ -789,10 +817,19 @@
   <script src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
+  <script src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
   <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 
   
