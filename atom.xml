@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.ccplanet.top/"/>
-  <updated>2019-01-07T02:21:08.626Z</updated>
+  <updated>2019-01-13T07:45:51.132Z</updated>
   <id>http://www.ccplanet.top/</id>
   
   <author>
@@ -21,16 +21,14 @@
     <link href="http://www.ccplanet.top/2019/01/10/hello-world/"/>
     <id>http://www.ccplanet.top/2019/01/10/hello-world/</id>
     <published>2019-01-10T13:23:33.981Z</published>
-    <updated>2019-01-07T02:21:08.626Z</updated>
+    <updated>2019-01-13T07:45:51.132Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><a id="more"></a><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -42,19 +40,15 @@
     <link href="http://www.ccplanet.top/2019/01/09/hexo-blog/"/>
     <id>http://www.ccplanet.top/2019/01/09/hexo-blog/</id>
     <published>2019-01-09T10:55:07.000Z</published>
-    <updated>2019-01-09T13:25:16.007Z</updated>
+    <updated>2019-01-13T07:50:18.380Z</updated>
     
-    <content type="html"><![CDATA[<pre><code>测试测试，第一篇个人博客</code></pre><p>欢迎来到 Coolplay Spark（中文名：酷玩 Spark）！</p><p>Coolplay Spark 将包含 Spark 源代码解析、Spark 类库、Spark 代码等。</p><h2 id="已发布的内容"><a href="#已发布的内容" class="headerlink" title="已发布的内容"></a>已发布的内容</h2><ul><li><a href="https://github.com/lw-lin/CoolplaySpark/tree/master/Structured%20Streaming%20%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E7%B3%BB%E5%88%97" target="_blank" rel="noopener">Structured Streaming 源码解析系列</a><ul><li>Structured Streaming 是 Spark 2.x 的流数据处理系统</li></ul></li><li><a href="https://github.com/lw-lin/CoolplaySpark/tree/master/Spark%20Streaming%20%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E7%B3%BB%E5%88%97" target="_blank" rel="noopener">Spark Streaming 源码解析系列</a><ul><li>Spark Streaming 是 Spark 1.x 的流数据处理系统</li></ul></li><li><a href="https://github.com/lw-lin/CoolplaySpark/tree/master/Spark%20%E8%B5%84%E6%BA%90%E9%9B%86%E5%90%88" target="_blank" rel="noopener">Spark 资源集合</a><ul><li>包括 Spark 技术交流（中文社群）<br>![wechat_spark_streaming_small]</li><li>Spark Summit 视频等资源集合</li></ul></li></ul>]]></content>
+    <content type="html"><![CDATA[<pre><code>测试测试，第一篇个人博客</code></pre><p>欢迎来到 Coolplay Spark（中文名：酷玩 Spark）！</p><p>Coolplay Spark 将包含 Spark 源代码解析、Spark 类库、Spark 代码等。<br><a id="more"></a></p><h2 id="已发布的内容"><a href="#已发布的内容" class="headerlink" title="已发布的内容"></a>已发布的内容</h2><ul><li><a href="https://github.com/lw-lin/CoolplaySpark/tree/master/Structured%20Streaming%20%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E7%B3%BB%E5%88%97" target="_blank" rel="noopener">Structured Streaming 源码解析系列</a><ul><li>Structured Streaming 是 Spark 2.x 的流数据处理系统</li></ul></li><li><a href="https://github.com/lw-lin/CoolplaySpark/tree/master/Spark%20Streaming%20%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E7%B3%BB%E5%88%97" target="_blank" rel="noopener">Spark Streaming 源码解析系列</a><ul><li>Spark Streaming 是 Spark 1.x 的流数据处理系统</li></ul></li><li><a href="https://github.com/lw-lin/CoolplaySpark/tree/master/Spark%20%E8%B5%84%E6%BA%90%E9%9B%86%E5%90%88" target="_blank" rel="noopener">Spark 资源集合</a><ul><li>包括 Spark 技术交流（中文社群）<br>![wechat_spark_streaming_small]</li><li>Spark Summit 视频等资源集合</li></ul></li></ul>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;pre&gt;&lt;code&gt;测试测试，第一篇个人博客
+      &lt;pre&gt;&lt;code&gt;测试测试，第一篇个人博客
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;欢迎来到 Coolplay Spark（中文名：酷玩 Spark）！&lt;/p&gt;
-&lt;p&gt;Coolplay Spark 将包含 Spark 源代码解析、Spark 类库、Spark 代码等。&lt;/p&gt;
-&lt;h2
-      
+&lt;p&gt;Coolplay Spark 将包含 Spark 源代码解析、Spark 类库、Spark 代码等。&lt;br&gt;
     
     </summary>
     
