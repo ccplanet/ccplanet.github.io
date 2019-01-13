@@ -264,6 +264,8 @@
     
 
     
+      
+    
 
     <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
 
@@ -281,8 +283,10 @@
     
 
     
+      
+    
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">2</span></a>
 
   </li>
         
@@ -298,8 +302,10 @@
     
 
     
+      
+    
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">0</span></a>
 
   </li>
         
@@ -315,8 +321,10 @@
     
 
     
+      
+    
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">2</span></a>
 
   </li>
         
@@ -331,6 +339,8 @@
       
     
 
+    
+      
     
 
     <a href="/404.html" rel="section"><i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>公益 404</a>
@@ -571,45 +581,37 @@
                 <span class="links-of-author-item">
                   
                   
-                    
-                  
                   
                     
                   
-                  <a href="https://github.com/ccplanet" title="GitHub &rarr; https://github.com/ccplanet" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  <a href="https://github.com/ccplanet" title="GitHub &rarr; https://github.com/ccplanet" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
                   
                   
-                    
-                  
                   
                     
                   
-                  <a href="https://mail.qq.com/" title="E-Mail &rarr; https://mail.qq.com/" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  <a href="https://mail.qq.com/" title="E-Mail &rarr; https://mail.qq.com/" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
                   
                   
-                    
-                  
                   
                     
                   
-                  <a href="https://weibo.com/*" title="Weibo &rarr; https://weibo.com/*" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
+                  <a href="https://weibo.com/*" title="Weibo &rarr; https://weibo.com/*" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
                   
                   
-                    
-                  
                   
                     
                   
-                  <a href="https://plus.google.com/*" title="Google &rarr; https://plus.google.com/*" rel="noopener" target="_blank"><i class="fa fa-fw fa-google"></i>Google</a>
+                  <a href="https://plus.google.com/*" title="Google &rarr; https://plus.google.com/*" rel="noopener" target="_blank"><i class="fa fa-fw fa-google"></i></a>
                 </span>
               
             </div>
@@ -641,6 +643,10 @@
                 
                   <li class="links-of-blogroll-item">
                     <a href="https://ccplanet.coding.me/" title="https://ccplanet.coding.me/" rel="noopener" target="_blank">Coding博客</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://cchaoplanet.coding.me/" title="https://cchaoplanet.coding.me/" rel="noopener" target="_blank">dev.tencent博客</a>
                   </li>
                 
               </ul>
@@ -681,8 +687,6 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-      <span class="post-meta-item-text">站点总字数：</span>
-    
     <span title="站点总字数">1k</span>
   
 
@@ -692,14 +696,10 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    
     <span title="站点阅读时长">1 分钟</span>
   
 </div>
 
-
-  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.8.0</div>
 
 
 
@@ -869,7 +869,7 @@
 
 <script>
   var GUEST = ['nick', 'mail', 'link'];
-  var guest = 'nick,mail,link';
+  var guest = 'nick,mail';
   guest = guest.split(',').filter(function (item) {
     return GUEST.indexOf(item) > -1;
   });
@@ -1216,6 +1216,74 @@
 
 
   
+  
+  <script>
+    
+    function showTime(Counter) {
+      var entries = [];
+      var $visitors = $('.leancloud_visitors');
+
+      $visitors.each(function() {
+        entries.push( $(this).attr('id').trim() );
+      });
+
+      Counter('get', '/classes/Counter', { where: JSON.stringify({ url: { '$in': entries } }) })
+        .done(function({ results }) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.url;
+            var time = item.time;
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for (var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if (countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function ({ responseJSON }) {
+          console.log(`LeanCloud Counter Error: ${responseJSON.code} ${responseJSON.error}`);
+        });
+    }
+    
+
+    $(function() {
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'LYWkMh5x7yfewcNBPz6U02Fa-gzGzoHsz')
+        .done(function({ api_server }) {
+          var Counter = function(method, url, data) {
+            return $.ajax({
+              method: method,
+              url: 'https://' + api_server + '/1.1' + url,
+              headers: {
+                'X-LC-Id': 'LYWkMh5x7yfewcNBPz6U02Fa-gzGzoHsz',
+                'X-LC-Key': 'vklHeL0EvKX5JcOrl2L3C2BN',
+                'Content-Type': 'application/json',
+              },
+              data: data
+            });
+          };
+          
+            if ($('.post-title-link').length >= 1) {
+              showTime(Counter);
+            }
+          
+        });
+    });
+  </script>
+
+
 
   
 
